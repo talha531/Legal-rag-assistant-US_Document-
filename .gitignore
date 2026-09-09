@@ -1,0 +1,10 @@
+.env
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Generated data (rebuild with `python main.py pipeline`)
+data/input_pdfs/*
+data/book_assistant_data/
+!data/input_pdfs/.gitkeep
