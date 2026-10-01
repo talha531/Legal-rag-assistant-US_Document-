@@ -1,0 +1,9 @@
+# Optional: run Qdrant as a server instead of embedded mode.
+# Then set QDRANT_URL=http://localhost:6333 in .env
+services:
+  qdrant:
+    image: qdrant/qdrant:latest
+    ports:
+      - "6333:6333"
+    volumes:
+      - ./storage/qdrant_server:/qdrant/storage

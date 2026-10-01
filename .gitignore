@@ -1,0 +1,11 @@
+.env
+.venv/
+__pycache__/
+*.pyc
+storage/*
+!storage/.gitkeep
+data/pdfs/*
+!data/pdfs/.gitkeep
+.pytest_cache/
+
+outputs/*.mp3

@@ -1,0 +1,27 @@
+# --- UI ---
+streamlit>=1.40.0
+
+# --- Agent / LLM ---
+langgraph>=0.2.60
+langchain-core>=0.3.30
+langchain-groq>=0.2.4
+groq>=0.13.0
+
+# --- Vector DB + free local embeddings (ONNX, no PyTorch needed) ---
+qdrant-client>=1.12.0
+fastembed>=0.4.2
+
+# --- PDF extraction ---
+pymupdf>=1.24.0          # text, layout, tables (find_tables), images
+pillow>=10.0.0
+pytesseract>=0.3.10      # OPTIONAL OCR (also needs the Tesseract binary installed)
+
+# --- Voiceover (text-to-speech, free, many languages) ---
+edge-tts>=6.1.9
+
+# --- Misc ---
+python-dotenv>=1.0.1
+pydantic>=2.6.0
+
+# --- Tests ---
+pytest>=8.0.0
